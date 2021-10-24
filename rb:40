@@ -1,0 +1,21 @@
+D, [2021-10-23T19:01:25.191573 #34872] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+
+An error occurred while loading ./spec/sinatra_ar_crud_lab_spec. - Did you mean?
+                    rspec ./spec/sinatra_ar_crud_lab_spec.rb
+
+Failure/Error: load_dependency(file) { result = super }
+
+LoadError:
+  cannot load such file -- /Users/nathanburns/Flatiron/sinatra-ar-crud-lab/spec/sinatra_ar_crud_lab_spec
+# /Users/nathanburns/.rvm/gems/ruby-2.6.1/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:285:in `load'
+# /Users/nathanburns/.rvm/gems/ruby-2.6.1/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:285:in `block in load'
+# /Users/nathanburns/.rvm/gems/ruby-2.6.1/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:257:in `load_dependency'
+# /Users/nathanburns/.rvm/gems/ruby-2.6.1/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:285:in `load'
+Run options: include {:focus=>true}
+
+All examples were filtered out; ignoring {:focus=>true}
+No examples found.
+
+Finished in 0.00004 seconds (files took 1.6 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
